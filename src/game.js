@@ -1,7 +1,7 @@
 var config = {
     width: window.innerWidth,
     height: window.innerHeight,
-    backgroundColor: 0x000000,
+    backgroundColor: 0x161c22,
     physics: {
         default: 'matter',
         matter: {
@@ -10,6 +10,10 @@ var config = {
                 y: 0
             },
         }
+    },
+    parent: 'login',
+    dom: {
+        createContainer: true
     },
     scene: [Minimap],
 
